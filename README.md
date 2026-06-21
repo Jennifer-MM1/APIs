@@ -93,8 +93,6 @@ cd APIs
 ### 2. Configurar Variables de Entorno `.env`
 Cada API tiene un archivo `.env.example` en su directorio correspondiente. Debes copiar este archivo y renombrarlo a `.env`, completando las variables con tus credenciales.
 
-> [!WARNING]
-> Los archivos `.env` reales contienen credenciales y llaves secretas. **Nunca los subas a GitHub**. Este repositorio incluye un `.gitignore` configurado para evitar la subida accidental de estos archivos.
 
 Ejemplo en bash/cmd (repetir para cada carpeta de API):
 ```bash
@@ -132,6 +130,4 @@ Cada API es independiente. Para ejecutar cualquiera de ellas:
 
 ---
 
-## 🔒 Nota sobre Seguridad (.env)
 
-Por motivos de seguridad, los archivos `.env` que contienen variables confidenciales están declarados en el archivo `.gitignore` raíz y no se subirán al repositorio público de GitHub. Se proporcionan plantillas `.env.example` en cada proyecto para que puedas configurar tu entorno local de forma segura.
